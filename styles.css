@@ -1,0 +1,337 @@
+/* COLOR IDs: #007D7B (teal) #FFFFFF #000000 */
+html {
+    background-color: #000000;
+}
+
+body {
+    max-width: 485px;
+    margin: 0 auto;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*----FONT STYLING----*/
+h1, h2 {
+    text-transform: uppercase;
+    margin: 0;
+    background: #FFFFFF;
+}
+
+h1 {
+    font-size: 3em;
+    color: #007d7b;
+    background-color: #FFFFFF;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2em;
+    padding-top: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.25em;
+    padding-left: 10px;
+}
+
+figcaption, label, input, small  {
+    font-size: 1em;
+}
+
+figcaption {
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+figure {
+	background-color: white;
+	text-align: center;
+}
+
+main {
+    clear: both;
+}
+
+/* ----- NAV ----- */
+nav {
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    overflow: hidden;
+}
+
+nav h2 {
+    visibility: hidden;
+    height: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-flex;
+    padding: 15px;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+nav a:hover {
+    color: #007D7B;
+}
+
+/* ----- TOP BUTTON ----- */
+[href="#top"]{
+    position: fixed;
+    color: #FFFFFF;
+    background-color: #007D7B;
+    text-align: center;
+    width: 80px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+}
+
+[href="#top"]:hover {
+    color: #007D7B;
+    background-color: #FFFFFF;
+}
+
+/* ----- ABOUT ----- */
+#about {
+    position: relative;
+	background-color: white;
+	color: black;
+    padding-bottom: 30px;
+}
+
+/* ----- GALLERY HEADER ----- */
+#gallery h2 {
+    clear: both;
+    text-align: center;
+}
+
+#gallery p {
+    text-align: left;
+}
+
+#gallery {
+	background-color: white;
+	color: black;
+    padding: 10px 10px 30px 0px;
+}
+
+/* ----- GALLERY PHOTOS STYLING ----- */
+img {
+	width: 100%;
+	height: auto;
+}
+.images {
+	display: grid;
+    grid-template-columns: 1fr;
+	background-color: #fff;
+	padding-bottom: 15px;
+}
+
+.chile {
+	position: relative;
+	top: -30px;
+	color: white;
+}
+
+.guat {
+	position: relative;
+	top: -30px;
+	color: white;
+}
+
+.hawaii {
+	position: relative;
+	top: -30px;
+	color: white;
+}
+
+.iran {
+	position: relative;
+	top: -30px;
+	color: #FFFFFF;
+}
+
+.ireland {
+	position: relative;
+	top: -30px;
+	color: #FFFFFF;
+}
+
+.italy {
+	position: relative;
+	top: -30px;
+	color: black;
+}
+
+.moab {
+	position: relative;
+	top: -30px;
+	color: white;
+}
+
+.rocky {
+	position: relative;
+	top: -30px;
+	color: #FFFFFF;
+}
+
+.switz {
+	position: relative;
+	top: -30px;
+	color: black;
+}
+
+.uk {
+	position: relative;
+	top: 30px;
+	color: #FFFFFF;
+}
+
+.usa {
+	position: relative;
+	top: 30px;
+	color: #FFFFFF;
+}
+
+.wyoming {
+	position: relative;
+	top: 30px;
+	color: #FFFFFF;
+}
+
+/* ---- CAPTION ADJUSTMENTS ----- */
+.ireland figcaption, .iran figcaption, .rocky figcaption, .switz figcaption, .uk figcaption, .usa figcaption {
+    position: absolute;
+    top: 10px;
+    color: #000000;
+}
+
+.guat figcaption, .wyoming figcaption {
+    position: absolute;
+    top: 10px;
+}
+/* ---- END OF PHOTO GALLERY ----- */
+
+
+/* ----- CONTACT ----- */
+form {
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+#contact {
+    margin: 0 auto;
+}
+
+#contact h2 {
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+#contact h2, #contact p {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+label {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: white;
+}
+
+input {
+    width: 85%;
+    background: white;
+    color: #007d7b;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    color: #007D7B;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background: white;
+    color:#007d7b;
+  }
+
+button {
+    width: 300px;
+    height: 35px;
+    background-color: #007D7B;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ----- FOOTER ----- */
+footer {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* ----- MEDIA JUSTIFY ----- */
+@media screen and (min-width:880px) {
+    body{
+        max-width: 880px;
+        justify-content: center;
+    }
+    h1 {
+        text-align: left;
+    }
+  
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }  
+    nav ul {
+        justify-content: center;
+    }
+  }
+
+  @media screen and (min-width:1300px) {
+    body{
+        max-width: 1300px;
+    }
+    h1 {
+        text-align: left;
+    }
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    nav ul {
+        justify-content: right;
+    }
+  }
